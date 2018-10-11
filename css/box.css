@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'box';
+  src: url('../font/box.eot?77439309');
+  src: url('../font/box.eot?77439309#iefix') format('embedded-opentype'),
+       url('../font/box.woff2?77439309') format('woff2'),
+       url('../font/box.woff?77439309') format('woff'),
+       url('../font/box.ttf?77439309') format('truetype'),
+       url('../font/box.svg?77439309#box') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'box';
+    src: url('../font/box.svg?77439309#box') format('svg');
+  }
+}
+*/
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "box";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  color: #8ccc3a;
+
+  font-variant: normal;
+  text-transform: none;
+
+  line-height: 1em;
+
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+.icon-heart:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-clock:before { content: '\e802'; } /* '' */
+.icon-calendar:before { content: '\e803'; } /* '' */
+.icon-location:before { content: '\e804'; font-size: 27px;} /* '' */
+.icon-box3:before { content: '\e805'; } /* '' */
+.icon-box13:before { content: '\e806'; } /* '' */
+.icon-box1:before { content: '\e807'; } /* '' */
+.icon-box2:before { content: '\e808'; } /* '' */
+.icon-box5:before { content: '\e809'; } /* '' */
+.icon-box4:before { content: '\e80a'; } /* '' */
+.icon-box7:before { content: '\e80b'; } /* '' */
+.icon-box8:before { content: '\e80c'; } /* '' */
+.icon-box9:before { content: '\e80d'; } /* '' */
+.icon-box6:before { content: '\e80e'; } /* '' */
+.icon-box10:before { content: '\e80f'; } /* '' */
+.icon-box11:before { content: '\e810'; } /* '' */
+.icon-box12:before { content: '\e811'; } /* '' */
+.icon-box13-1:before { content: '\e812'; } /* '' */
+.icon-spin1:before { content: '\e830'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-gplus:before { content: '\f0d5'; } /* '' */
+.icon-angle-left:before { content: '\f104'; } /* '' */
+.icon-angle-right:before { content: '\f105'; } /* '' */
+.icon-angle-up:before { content: '\f106'; } /* '' */
+.icon-mobile:before { content: '\f10b'; } /* '' */
+.icon-youtube:before { content: '\f167'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-heartbeat:before { content: '\f21e'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; font-size: 28px;} /* '' */
+
+
+
