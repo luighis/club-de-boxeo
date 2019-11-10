@@ -773,3 +773,9 @@ textarea:focus {
     text-decoration: none;
     cursor: pointer;
 }
+
+@media only screen and ( max-width: 46rem ) {
+    .modal-content {
+        width: 90%;
+    }
+}	
